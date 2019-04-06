@@ -20,6 +20,7 @@ class EventListItem extends Component {
             </Item>
           </Item.Group>
         </Segment>
+        
         <Segment>
           <span>
             <Icon name="clock" /> {event.date}|

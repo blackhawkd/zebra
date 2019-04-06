@@ -86,6 +86,7 @@ class EventDashboard extends Component {
           />
           {this.state.isOpen && <EventForm handleCancel={this.handleCancel} />}
         </Grid.Column>
+        
       </Grid>
     );
   }
